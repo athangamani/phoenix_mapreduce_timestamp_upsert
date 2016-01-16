@@ -1,0 +1,174 @@
+<!--Tue Nov  3 17:35:12 2015-->
+<configuration>
+
+    <property>
+        <name>hbase.client.keyvalue.maxsize</name>
+        <value>10485760</value>
+    </property>
+
+    <property>
+        <name>hbase.client.retries.number</name>
+        <value>35</value>
+    </property>
+
+    <property>
+        <name>hbase.client.scanner.caching</name>
+        <value>100</value>
+    </property>
+
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+
+    <property>
+        <name>hbase.local.dir</name>
+        <value>${hbase.tmp.dir}/local</value>
+    </property>
+
+    <property>
+        <name>hbase.master.info.port</name>
+        <value>16010</value>
+    </property>
+
+    <property>
+        <name>hbase.master.port</name>
+        <value>16000</value>
+    </property>
+
+    <property>
+        <name>hbase.region.server.rpc.scheduler.factory.class</name>
+        <value>org.apache.hadoop.hbase.ipc.PhoenixRpcSchedulerFactory</value>
+    </property>
+
+    <property>
+        <name>hbase.regionserver.handler.count</name>
+        <value>60</value>
+    </property>
+
+    <property>
+        <name>hbase.regionserver.info.port</name>
+        <value>16030</value>
+    </property>
+
+    <property>
+        <name>hbase.regionserver.port</name>
+        <value>16020</value>
+    </property>
+
+    <property>
+        <name>hbase.rootdir</name>
+        <value>/tmp</value>
+    </property>
+
+    <property>
+        <name>hbase.rpc.controllerfactory.class</name>
+        <value>org.apache.hadoop.hbase.ipc.controller.ServerRpcControllerFactory</value>
+    </property>
+
+    <property>
+        <name>hbase.rpc.timeout</name>
+        <value>90000</value>
+    </property>
+
+    <property>
+        <name>hbase.security.authorization</name>
+        <value>false</value>
+    </property>
+
+    <property>
+        <name>hbase.superuser</name>
+        <value>hbase</value>
+    </property>
+
+    <property>
+        <name>hbase.tmp.dir</name>
+        <value>/tmp</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>master01.preprod.datalake.cdk.com</value>
+    </property>
+
+    <property>
+        <name>hbase.zookeeper.useMulti</name>
+        <value>true</value>
+    </property>
+
+    <property>
+        <name>hfile.block.cache.size</name>
+        <value>0.3</value>
+    </property>
+
+    <property>
+        <name>phoenix.distinct.value.compress.threshold</name>
+        <value>1024000</value>
+    </property>
+
+    <property>
+        <name>phoenix.functions.allowUserDefinedFunctions</name>
+        <value>true</value>
+    </property>
+
+    <property>
+        <name>phoenix.groupby.estimatedDistinctValues</name>
+        <value>20000</value>
+    </property>
+
+    <property>
+        <name>phoenix.groupby.maxCacheSize</name>
+        <value>1073741824</value>
+    </property>
+
+    <property>
+        <name>phoenix.groupby.spillable</name>
+        <value>false</value>
+    </property>
+
+    <property>
+        <name>phoenix.mutate.batchSize</name>
+        <value>10000</value>
+    </property>
+
+    <property>
+        <name>phoenix.upsert.batch.size</name>
+        <value>10000</value>
+    </property>
+
+    <property>
+        <name>phoenix.connection.autoCommit</name>
+        <value>false</value>
+    </property>
+
+    <property>
+        <name>phoenix.query.maxServerCacheBytes</name>
+        <value>1073741824</value>
+    </property>
+
+    <property>
+        <name>phoenix.query.rowKeyOrderSaltedTable</name>
+        <value>false</value>
+    </property>
+
+    <property>
+        <name>phoenix.query.timeoutMs</name>
+        <value>60000</value>
+    </property>
+
+    <property>
+        <name>zookeeper.session.timeout</name>
+        <value>30000</value>
+    </property>
+
+    <property>
+        <name>zookeeper.znode.parent</name>
+        <value>/hbase-unsecure</value>
+    </property>
+
+</configuration>
