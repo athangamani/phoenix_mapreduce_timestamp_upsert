@@ -8,7 +8,7 @@ import java.sql.*;
 /**
  * Created by thangar
  */
-public class StatPhoenixAdminCommandsTest {
+public class StatPhoenixTableCreationTest {
 
     public static void main(String[] args) throws SQLException {
         DriverManager.registerDriver(PhoenixDriver.INSTANCE);
