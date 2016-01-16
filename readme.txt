@@ -17,7 +17,7 @@ The table has a composite key and the data arrives in different times from diffe
 We are even talking about our use cases in the upcoming strata conference in March..  (Thanks to the excellent community)
 
 Steps to reproduce:
-Source code is available in (https://github.com/athangamani/phoenix_mapreduce_load) and the jar the source code produces is attached which is readily runnable
+Source code is available in (https://github.com/athangamani/phoenix_mapreduce_timestamp_upsert) and the jar the source code produces is attached which is readily runnable
 1) We use the following params to keep the stats collection happy to isolate the specific issue
      phoenix.stats.useCurrentTime false
      phoenix.stats.guidepost.per.region 1
